@@ -6,16 +6,20 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
+public class Activity2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_2);
     }
 
-    public void nextScreen(View view) {
-        Intent intent = new Intent(this, Activity2.class);
+    public void previousScreen(View view) {
+        Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
+    }
+
+    public void close(View view) {
+        finish();
     }
 }

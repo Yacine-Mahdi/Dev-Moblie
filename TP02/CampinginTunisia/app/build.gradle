@@ -4,11 +4,12 @@ plugins {
 
 android {
     namespace 'com.example.campingintunisia'
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         applicationId "com.example.campingintunisia"
         minSdk 24
+        //noinspection OldTargetApi
         targetSdk 33
         versionCode 1
         versionName "1.0"
@@ -26,6 +27,7 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    buildToolsVersion '33.0.2'
 }
 
 dependencies {
