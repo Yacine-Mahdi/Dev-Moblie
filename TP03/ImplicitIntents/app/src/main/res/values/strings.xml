@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Implicit Intents</string>
+    <string name="open_website">OPEN WEBSITE</string>
+    <string name="open_location">OPEN LOCATION</string>
+    <string name="share_text">SHARE TEXT</string>
+    <string name="share_text_with">Share</string>
+    <string name="location">ISIMS</string>
+    <string name="image_taken">Image Taken</string>
+</resources>
