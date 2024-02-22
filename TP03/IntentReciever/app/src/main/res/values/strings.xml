@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">IntentReceiver</string>
+    <string name="uri_label">The link is: </string>
+</resources>
