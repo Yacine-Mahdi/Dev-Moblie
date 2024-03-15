@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">DataBaseSql</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="example_gmail_com">example@gmail.com</string>
+    <string name="telephone">Telephone</string>
+    <string name="_00_000_000">00 000 000</string>
+    <string name="ajouter_a_la_base">Ajouter A la base</string>
+    <string name="voir_base">Voir Base</string>
+    <string name="voici_le_contenu_de_la_base">Voici le contenu de la base</string>
+    <string name="retour">retour</string>
+    <string name="les_champs_a_modifier">Les champs a modifier</string>
+    <string name="update">update</string>
+    <string name="search_hint">Search Employees</string>
+</resources>
